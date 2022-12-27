@@ -1,14 +1,14 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
+import ListGroupExample from "./Cards/ListGroupExample";
 
 
-import BasicExample from "./Cards/BasixExample";
-import BodyExample from "./Cards/BodyExample";
+import TextExample from "./Cards/TextExample";
 function App() {
   return (
     <div className="App">
-      <BasicExample/>
-      <BodyExample/>
+      <ListGroupExample/>
+      <TextExample />
     </div>
   );
 }
